@@ -73,7 +73,7 @@ Execução:
 
 1. Clone o repositório do projeto:
 
-git clone https://github.com/usuario/teste-hipotese-python.git
+git clone https://github.com/glaubermateus/Ciencia_De_Dados/4-estatistica/3-teste_hipotese.git
 
 2. Instale as dependências:
 
