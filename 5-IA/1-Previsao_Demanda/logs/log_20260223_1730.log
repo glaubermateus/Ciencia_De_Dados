@@ -1,0 +1,76 @@
+2026-02-23 17:30:24 | INFO | Iniciando a execução de: cria_tabelas.py!
+2026-02-23 17:30:24 | INFO | Conectado ao banco SQLite: vendas.db
+2026-02-23 17:30:24 | INFO | Iniciando a leitura do arquivo sql.
+2026-02-23 17:30:24 | INFO | Criando tabelas...
+2026-02-23 17:30:24 | INFO | Script executado com sucesso!
+2026-02-23 17:30:24 | INFO | Script 2-cria_tabelas.py executado com sucesso.
+2026-02-23 17:30:24 | INFO | Termino da execução de: cria_tabelas.py!
+2026-02-23 17:30:24 | INFO | Iniciando a execução de: carrega_dados.py!
+2026-02-23 17:30:31 | INFO | Iniciando a carga de dados...
+2026-02-23 17:30:31 | INFO | Conectado ao banco SQLite: vendas.db
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'fornecedores'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: fornecedores.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 5 registros inseridos na tabela fornecedores
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'categorias'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: categorias.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 5 registros inseridos na tabela categorias
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'produtos'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: produtos.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 20 registros inseridos na tabela produtos
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'clientes'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: clientes.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 25 registros inseridos na tabela clientes
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'vendas'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: vendas.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 50 registros inseridos na tabela vendas
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'estoque'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: estoque.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 20 registros inseridos na tabela estoque
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'sazonalidade'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: sazonalidade.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 4 registros inseridos na tabela sazonalidade
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'forecast'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: forecast.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 15 registros inseridos na tabela forecast
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'reabastecimento'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: reabastecimento.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 10 registros inseridos na tabela reabastecimento
+2026-02-23 17:30:31 | INFO | Iniciando carga para a tabela 'pedidos'...
+2026-02-23 17:30:31 | INFO | Lendo arquivo CSV: pedidos.csv
+2026-02-23 17:30:31 | INFO | Iniciando validação de colunas.
+2026-02-23 17:30:31 | INFO | 15 registros inseridos na tabela pedidos
+2026-02-23 17:30:31 | INFO | Carga finalizada com sucesso!
+2026-02-23 17:30:31 | INFO | Iniciando cálculo de métricas de forecast.
+2026-02-23 17:30:31 | INFO | Métricas de forecast calculadas e salvas com sucesso.
+2026-02-23 17:30:31 | INFO | Conexão encerrada.
+2026-02-23 17:30:31 | INFO | Script 3-carrega_dados.py executado com sucesso.
+2026-02-23 17:30:31 | INFO | Termino da execução de: carrega_dados.py!
+2026-02-23 17:30:31 | INFO | Iniciando a execução de: llm.py!
+2026-02-23 17:30:35 | INFO | Iniciando geração de insights com batch de prompts.
+2026-02-23 17:30:35 | INFO | Conectado ao banco SQLite: vendas.db
+2026-02-23 17:30:35 | INFO | 10 registros recuperados do banco.
+2026-02-23 17:30:35 | INFO | Conexão com SQLite encerrada.
+2026-02-23 17:30:35 | INFO | Processando batch 1 com 2 produtos.
+2026-02-23 17:32:07 | INFO | Batch 1 processado com sucesso.
+2026-02-23 17:32:07 | INFO | Processando batch 2 com 2 produtos.
+2026-02-23 17:33:12 | INFO | Batch 2 processado com sucesso.
+2026-02-23 17:33:12 | INFO | Processando batch 3 com 2 produtos.
+2026-02-23 17:34:12 | INFO | Batch 3 processado com sucesso.
+2026-02-23 17:34:12 | INFO | Processando batch 4 com 2 produtos.
+2026-02-23 17:35:06 | INFO | Batch 4 processado com sucesso.
+2026-02-23 17:35:06 | INFO | Processando batch 5 com 2 produtos.
+2026-02-23 17:35:47 | INFO | Batch 5 processado com sucesso.
+2026-02-23 17:35:47 | INFO | Salvando insights em arquivo CSV: analise.csv
+2026-02-23 17:35:47 | INFO | Processo de geração de insights finalizado.
+2026-02-23 17:35:48 | INFO | Script 4-llm.py executado com sucesso.
+2026-02-23 17:35:48 | INFO | Termino da execução de: llm.py!
+2026-02-23 17:35:48 | INFO | Pipeline executado.
